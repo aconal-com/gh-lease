@@ -1,0 +1,25 @@
+# Binaries
+/bin/
+/dist/
+
+# Test artifacts
+*.test
+*.out
+coverage.txt
+coverage.html
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Env / secrets (never commit)
+.env
+.env.*
+*.pem
+!testdata/*.pem
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
